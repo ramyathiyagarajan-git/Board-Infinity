@@ -1,49 +1,101 @@
 <!DOCTYPE html>
     <head>
-        <title>HTML Assignment 2</title>
+        <title> edit HTML Assignment 2</title>
         <link rel ="icon" type="image/x-icon" href= "html logo.png">
-        <style>
-            .style {
-            text-align:center;
-            border: 1px solid;
-            width:300px ;
+        <style type="text/css">
+              .code {
+                margin :200px auto;
+                width :300px;
+                padding:40px;
+                box-shadow:0px 3px 14px 9px rgb(131, 128, 128) ;
+             }
+             .header {
+                 margin: 0 0 15px 0;
+                 text-align: center;
+                 border-bottom:1px solid;
+                 text-transform:uppercase;
+                 font-size :19px;
+                 color: rgb(26, 172, 177);
+             }
+             .large{ 
+                 font-size: 18px;
+                 font-weight: bold ;
+                }
+            .alter{
+                width: 200px;
+                height:20px ;
+                margin: 0 0 20px;
+                border-radius:2px;
+                border:1 px solid rgb(38, 140, 180) ;
+
+            }  
+             .small { 
+                 font: size 10px;
+                font-weight: bold;
+            }  
+        input { border-radius:2px;
+                border:1 px solid rgb(38, 140, 180);
+
             }
+        
+
+        button { 
+            margin:2px 110px;
+            text-align:center;
+            padding:5px 21px;
+            background-color: rgb(27, 106, 209); }
+        p {
+            text-align: center ;
+        }    
+    
+
         </style>
     </head>
-    <body>
-     <div class="style">   
-     <h1>Register Here</h1>
+     <body>
+     <div class="code">  
+    <h3 class="header">Register Here</h3>
      <form>
      <div>
-        <label >Username:</label>
-        <input type="text" placeholder="Enter Username" required autofocus>
-    </div><br>
-    <div>
-        <label>Password:</label>
-        <input type="password"placeholder="Enter Password"required>
-    </div><br>
-    <div>
-        <label>Email:</label>
-        <input type="text" placeholder="abc@gmail.com" required>
-    </div><br>
-    <span>Gender:</span>
-    <span>
-        <input id="user" type="radio" name=" item"> 
-        <label for="user"> User</label>
-        
-    </span>
-    <span>
-        <input id="admin"  type="radio" name=" item">
-        <label for="admin"> Admin</label>
-        
-    </span>
-    <span>
-        <input id="admin"  type="radio" name=" item">
-        <label for="admin"> Admin</label>
-       
-    </span><br>
-    <button type="submit" value="Login"> Login </button>
+        <label class="large" >Username:</label>
+        <input class="alter" type="text" placeholder="Enter Username" required autofocus>
     </div>
+    <div>
+        <label class="large">Password:</label>
+        <input class="alter" type="password"placeholder="Enter Password"required>
+    </div>
+    <div>
+        <label class="large">Email:</label>
+        <input class="alter" type="text" placeholder="abc@gmail.com" required>
+    </div>
+<span>
+    <label class="large">Gender:</label>
+</span>
+     <span><input id="male" type="radio" name=" item"> 
+        <label class="small" for="male">Male</label></span> 
+    
+    <span><input id="female"  type="radio" name=" item">
+        <label class="small" for="female">Female</label>
+    
+    <span><input id="others"  type="radio" name=" item">
+         <label class="small" for="others">Others</label> <br>      
+ 
+        <br><span><label class="large">Phone:</label></span>
+    <span>
+        <input list="text" size="2px"> 
+                <datalist id="text">
+                    <option>+91</option>
+                    <option>+220</option>
+                    <option>+350</option>
+                    <option>+230</option>
+                    <option>+420</option>
+                </datalist>
+    </span>
+    <span>
+        <input  size="15px"  type="text" name ="item"><br>
+    </span> <br>
+    <div><button type="submit" value="Login"> Login </button></div>
+   <p>Already have an account? <a href="https://www.w3schools.com">SignIn</a></p>
+</div>
     </form>
     </body>
     </html>
