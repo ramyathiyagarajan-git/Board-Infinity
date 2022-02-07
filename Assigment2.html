@@ -2,10 +2,16 @@
     <head>
         <title>HTML Assignment 2</title>
         <link rel ="icon" type="image/x-icon" href= "html logo.png">
-        
+        <style>
+            .style {
+            text-align:center;
+            border: 1px solid;
+            width:300px ;
+            }
+        </style>
     </head>
     <body>
-     <div style="text-align: center;border: 1px solid; ">   
+     <div class="style">   
      <h1>Register Here</h1>
      <form>
      <div>
@@ -16,10 +22,26 @@
         <label>Password:</label>
         <input type="password"placeholder="Enter Password"required>
     </div><br>
-    <span><div>
+    <div>
         <label>Email:</label>
         <input type="text" placeholder="abc@gmail.com" required>
-    </div></span><br>
+    </div><br>
+    <span>Gender:</span>
+    <span>
+        <input id="user" type="radio" name=" item"> 
+        <label for="user"> User</label>
+        
+    </span>
+    <span>
+        <input id="admin"  type="radio" name=" item">
+        <label for="admin"> Admin</label>
+        
+    </span>
+    <span>
+        <input id="admin"  type="radio" name=" item">
+        <label for="admin"> Admin</label>
+       
+    </span><br>
     <button type="submit" value="Login"> Login </button>
     </div>
     </form>
