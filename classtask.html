@@ -1,6 +1,30 @@
 <!DOCTYPE html>
     <head>
-        <title> HTML Assignment 3</title>
+        <title> class task 1</title>
+        <script>
+            /*
+            function signup() {
+                alert("Welcome to Board Infinity")
+            } */
+            /*
+            function signup() {
+             var username = document.getElementById("msg");
+             alert("Thanks for login", username.value);
+            }*/
+            
+            function signup() {
+                var print1 = document.getElementById("msg1");
+                var print2 = document.getElementById("msg2");
+                var print3 = document.getElementById("msg3");
+                var print4 = document.getElementById("msg4");
+                var print5 = document.getElementById("msg5");
+                
+                var box = document.getElementById("showVal");
+                box.innerHTML = print1.value + "<br>" + print2.value + "<br>" + print3.value + "<br>" + print4.value + "<br>" + print5.value;
+                console.log("Hi")
+            }
+            
+        </script>
         <style type="text/css">
               .code {
                 margin :200px auto;
@@ -38,12 +62,47 @@
             text-align: center ;
         }    
     
+
         </style>
     </head>
      <body>
      <div class="code">  
     <h3 class="header">signup</h3>
+    <div id="showVal"></div>
+    
+       
+     <div>
+        <label>Username 1:</label>
+    </div><br>
     <div>
+        <input id="msg1" type="text" placeholder="Enter Username"  autofocus>
+    </div>
+    <div>
+        <label>Username 2:</label>
+    </div><br>
+    <div>
+        <input id="msg2" type="text" placeholder="Enter Username"  autofocus>
+    </div>
+    <div>
+        <label>Username 3:</label>
+    </div><br>
+    <div>
+        <input id="msg3" type="text" placeholder="Enter Username"  autofocus>
+    </div>
+    <div>
+        <label>Username 4:</label>
+    </div><br>
+    <div>
+        <input id="msg4" type="text" placeholder="Enter Username"  autofocus>
+    </div>
+    <div>
+        <label>Username 5:</label>
+    </div><br>
+    <div>
+        <input id="msg5" type="text" placeholder="Enter Username"  autofocus>
+    </div>
+    <!--
+        <div>
         <label>Username:</label>
     </div><br>
     <div>
@@ -65,6 +124,7 @@
     <div><br>
         <input type="text"placeholder="Confirm your password">
     </div>  
+-->
     <div>
         <button onclick = "signup()" value="Signup"> Sign up! </button>
     </div>
@@ -75,3 +135,10 @@
     </body>
     </html>
 
+
+    style = " border:1px solidrgb(218, 203, 203);"
+    @media screen and (max-width: 300px) {
+        .signupbtn {
+          width: 100%;
+        }
+      }

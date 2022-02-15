@@ -1,0 +1,110 @@
+
+<html lang="en">
+<head>
+    
+   <title>Assignment 4</title>
+   <style>
+
+    * {box-sizing: border-box ;}
+
+    input[type=text], input[type=password] {
+       width: 100%;
+       padding: 15px;
+       margin: 10px;
+       display: inline-block;
+       border: none;
+       background: #f1f1f1;
+    }
+
+    .content {
+       max-width: 500px;
+       margin: auto;
+       box-shadow: 10px 3px 14px 9px rgb(131, 128, 128) ;
+       padding: 5px ;
+       background-color:#FFE4C0;
+     }
+
+    input[type=text]:focus, input[type=password]:focus input[type=date]:focus {
+       background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04AA6D; 
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+.signupbtn {
+  margin-left: 25%; 
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+ .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 { 
+     text-align: center;
+     margin-left: 0;
+     background-color:#f44336;
+     border-radius: 50%;
+     width: 100%;
+     height:50px;
+     padding:5px; }
+
+   </style>
+</head>
+<body>
+<div class="content">
+
+    <div class="container">
+
+        <h1>Sign Up</h1>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username"  required> <br>
+
+        <label for="password"><b>Password</b></label>
+         <input type="password" placeholder="Enter password" name="password" required> <br>  
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter email" name="email" required><br>
+ 
+        <label for="Address"><b>Address</b></label>
+        <input type="text" placeholder="Enter email" name="email" required><br><br>
+        
+        <label for="birthday"><b>DOB</b></label>
+        <input type="date" placeholder="dd-mm-yyyy" name="birthday" required>
+
+        <input type="checkbox" checked><label> Remember me</label>
+        <br>
+        <br>
+        <br>
+        <div class="clearfix">
+            <button type="button" class="signupbtn">SignUp</button>
+        </div>
+       
+    </div>
+</div>
+    </body>
