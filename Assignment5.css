@@ -1,10 +1,87 @@
-* {box-sizing: border-box ;}
 
-.content {
-    width: 1400px; 
-    height:auto;
-    margin: auto;
-    color:black;
-    position:relative;
+.code {
+    margin :60px auto;
+    width :400px;
+    height:auto ;
+    padding:80px;
+    border-radius: 50px;
+    box-shadow:10px 3px 14px 9px rgb(131, 128, 128) ;
+ }
+.header {
+    margin: 0 0 15px 0;
+    text-align: center;
+    border-bottom:1px solid black;
+    font-size :28px;
+    color: #0C1E7F;
+ }
+
+input[type=text] {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    background: #C2FFF9;
 }
 
+input[type=text]:focus {
+    background-color: #C2FFF9;
+    outline: none; }
+
+.mainhead {
+
+    color: #000B49;
+    text-align: center;
+    font-size: 50px;
+    border:none;
+    background-color:#A3E4DB ;
+    
+}
+
+button {
+    background-color: #04AA6D; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.signupbtn {
+    margin-left: 25%; 
+    padding: 14px 20px;
+    background-color: #009DAE;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.precontent{
+    margin-left: 0px;
+    width:400px ;
+    height:80px;
+    border: none;
+    background: #C2FFF9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.prehead {
+
+    font-size: 18px;
+    font-weight: bold
+
+}

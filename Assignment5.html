@@ -6,53 +6,63 @@
     <script src="Assignment5.js"></script>
     <title>*Assignment 5*</title>
 </head>
+
 <body>
-    <div class="content">
+ <!--Main heading-->
+ <h1 class="mainhead">User Form</h1>  
 
-    <!--preview-->
-    
-    <div id="show" style="display:block;">
-      <label for="username"><b>Name</b></label>  
-      <div id="printuser"></div>
+ <div class="code">  
 
-      <label for="Daily activities"><b>Daily activities</b></label>
-      <div id="printact"></div>
+        <!--preview-->
+        <div id="show" style="display:none;">
 
-      <label for="Hobbies"><b>Hobbies</b></label>
-      <div id="printhob"></div>
-
-      <label for="Interests"><b>Interests</b></label>
-      <div id="printint"></div>
-    </div>
-
-
-    <!--Userdata-->
-
-    <div id="hide">
-        <h1>About</h1>
-
-        <label for="username"><b>Name</b></label>
-        <input id="name" type="text" name="username"> <br>
-
-        <label for="Daily activities"><b>Daily activities</b></label>
-        <input id="act" type="text" name="activities"><br>  
-
-        <label for="Hobbies"><b>Hobbies</b></label>
-        <input id="hob" type="text" name="hobbies"><br>
-
-        <label for="Interests"><b>Interests</b></label>
-        <input id="int" type="text" name="interests"><br>
-
-    
-        <div>
-            <button  onclick="hide_show() ; print()" type="button" class="signupbtn">SignUp</button>
+             <h1 class="header">Preview</h1>  
+     
+             <label class="prehead" for="username"><b>Name</b></label>
+             <br>  
+             <div class="precontent" id="printuser" ></div>
+             <br>
+             <label class="prehead" for="Daily activities"><b>Daily activities</b></label>
+             <br>
+             <div class="precontent" id="printact"></div> 
+             <br>
+             <label class="prehead" for="Hobbies"><b>Hobbies</b></label>
+             <br>
+             <div class="precontent" id="printhob"></div>
+             <br>
+             <label class="prehead" for="Interests"><b>Interests</b></label>
+             <br>
+             <div class="precontent" id="printint"></div>
+           
         </div>
 
-    </div>
+
+        <!--Userdata-->
+        <div id="hide" style="display:block;">
+
+             <div class="container">
+
+                 <h1 class="header">About</h1>
+
+                 <label for="username"><b>Name</b></label>
+                 <input id="name" type="text" name="username"> <br>
+
+                 <label for="Daily activities"><b>Daily activities</b></label>
+                 <input id="act" type="text" name="activities"><br>  
+
+                 <label for="Hobbies"><b>Hobbies</b></label>
+                 <input id="hob" type="text" name="hobbies"><br>
+
+                 <label for="Interests"><b>Interests</b></label>
+                 <input id="int" type="text" name="interests"><br>
 
 
-</div><!--Css div-->
+                <div class="clearfix"><button  onclick="hide_show() ; print()" type="button" class="signupbtn">SignUp</button></div>
 
+            </div>
+
+        </div>
+</div>
 
 </body>
 </html>
