@@ -1,0 +1,10 @@
+* {box-sizing: border-box ;}
+
+.content {
+    width: 1400px; 
+    height:auto;
+    margin: auto;
+    color:black;
+    position:relative;
+}
+

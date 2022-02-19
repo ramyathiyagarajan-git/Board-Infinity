@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assignment5.css">
+    <script src="Assignment5.js"></script>
+    <title>*Assignment 5*</title>
+</head>
+<body>
+    <div class="content">
+
+    <!--preview-->
+    
+    <div id="show" style="display:block;">
+      <label for="username"><b>Name</b></label>  
+      <div id="printuser"></div>
+
+      <label for="Daily activities"><b>Daily activities</b></label>
+      <div id="printact"></div>
+
+      <label for="Hobbies"><b>Hobbies</b></label>
+      <div id="printhob"></div>
+
+      <label for="Interests"><b>Interests</b></label>
+      <div id="printint"></div>
+    </div>
+
+
+    <!--Userdata-->
+
+    <div id="hide">
+        <h1>About</h1>
+
+        <label for="username"><b>Name</b></label>
+        <input id="name" type="text" name="username"> <br>
+
+        <label for="Daily activities"><b>Daily activities</b></label>
+        <input id="act" type="text" name="activities"><br>  
+
+        <label for="Hobbies"><b>Hobbies</b></label>
+        <input id="hob" type="text" name="hobbies"><br>
+
+        <label for="Interests"><b>Interests</b></label>
+        <input id="int" type="text" name="interests"><br>
+
+    
+        <div>
+            <button  onclick="hide_show() ; print()" type="button" class="signupbtn">SignUp</button>
+        </div>
+
+    </div>
+
+
+</div><!--Css div-->
+
+
+</body>
+</html>
