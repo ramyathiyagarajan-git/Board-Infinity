@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>**Calculator**</title>
+    <link rel="stylesheet" href="C:\Board Infinity\training\HTML\Assignment6.css">
+    <script src="Assignment6.js"></script>
+</head>
+<body>
+    <div class="code">  
+        <!--heading-->
+        <h1 class="header">Calculator</h1>
+        <br>
+        <!--display-->
+        <input style="color: #FF4848;"class="display" type="text" placeholder="Answer" id="outputscreen">  
+        <br>
+
+        <!--operand1-->
+        <div>
+            <span> <input class="data" id="op1" type="text" placeholder="Enter Operand 1" name="username"  required></span>
+            <span><button id="btn1" onclick="display1(); buttonColor('btn1')">&#10004;</button></span> 
+        </div>
+
+
+        <!--operator selection-->
+        <div>
+            <span>
+                <input  class="data" list="text" size="2px" placeholder=" Select Operator " id="opt" > 
+                <datalist id="text">
+                    <option >+</option>
+                    <option >-</option>
+                    <option >*</option>
+                </datalist>
+            </span>  
+            <span><button id="btn2" onclick="display2();buttonColor('btn2')">&#10004;</button></span>
+        </div>
+
+
+        <!--operand2--> 
+        <div>
+            <span><input  class ="data" id="op2" type="text" placeholder="Enter Operand 2" name="username"  required></span> 
+            <span><button id="btn3" onclick="display3() ; changeColor('outputscreen'); buttonColor('btn3')">&#10004;</button></span> 
+        </div>
+        <br>
+
+        <!-- button-->
+        <button onclick="Clear()">Cl</button>
+        <button onclick="del()">Del</button>  
+        <button onclick="calculate()">Ans</button> 
+        
+    
+
+    </div>
+
+</body>
+</html>
