@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>**MAX MIN**</title>
+    <link rel="stylesheet" href="C:\Board Infinity\training\HTML\Assignment7.css">
+    <script src="C:\Board Infinity\training\HTML\Assignment7.js"></script>
+</head>
+<body>
+    <div class="code">  
+        <!--heading-->
+        <h1 class="header">max() min()</h1>
+        <br>
+        <!-- array display-->
+        <input style="color: grey ;"class="display" type="text" placeholder="Array" id="outputscreen">  
+        <br>
+
+        <!--data section-->
+        <div>
+            <!--enter array values-->
+                <span> <input class="data" id="data" type="text" placeholder="Enter array values" required></span>
+
+            <!-- "enter" to add values -->
+               <span><button onclick="Data(); display()">Enter</button></span> 
+   
+            <!--clear values -->
+               <span><button onclick="Clear()">Cl</button></span> 
+        
+            <!--Answer button-->
+               <span><button onclick="minmax()">Ans</button></span>
+
+        </div>
+
+        <br>
+        <br>
+        
+        <!--Ans section-->
+            <table>
+                <tr>
+                    <td>Maximum value is :</td>
+                    <td id="max"></td>
+                </tr>
+                <tr>
+                    <td>Minimum value is :</td>
+                    <td id="min"></td>
+
+                </tr>
+            </table>
+    
+
+    </div>
+
+</body>
+</html>

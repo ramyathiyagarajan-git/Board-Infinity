@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    
+   <title>*Assignment 8*</title>
+   <link rel="stylesheet" href="Assignment8.css">
+   <script src="Assignment8.js"></script>
+
+</head>
+
+<body> 
+
+   <div class="content">
+
+
+            <div>
+                <p>Marksheet Appears here &#x2193; </p>
+            </div>
+
+            <div style="display:none;" id ="show">
+            <h1 class="head">Mark sheet</h1>
+                   <table id="display">
+                               <tr>
+                                   <th>Name</th>
+                                   <th>Reg No</th>
+                                   <th>Email</th>
+                                   <th>DOB</th>
+                                   <th>Section</th>
+                                   <th>Science</th>
+                                   <th>Maths</th>
+                                   <th>Social</th>
+                                   <th>English</th>
+                                   <th>Hindi</th>
+                              </tr>
+                   </table>
+
+            </div>
+
+
+            <div class="container">
+
+                <h2 class ="header">Personal Details</h2>
+
+                    
+                    <label><b>Name:</b></label>
+                    <input id="name" type="text" placeholder="Enter Name"   required><br>
+                    
+                    <label><b>Reg No:</b></label>
+                    <input id="reg" type="number" placeholder="Enter Reg no" required><br> 
+                    
+                    <label ><b>Email:</b></label>
+                    <input id="email" type="text" placeholder="xyz@gmail.com"  required><br>
+                    
+                    <label ><b>Section:</b></label>
+                    <input  id="sec" type="text" placeholder="Enter section"  required><br>   
+                    
+                    <label><b>DOB</b></label>
+                    <input  id="dob" type="date" placeholder="dd-mm-yyyy"  required><br><br>
+                    
+
+                <h2 class ="header">Scores</h2>    
+
+                    <label ><b>Science:</b></label>
+                    <input  id="sci" type="text" placeholder="score"  required><br>
+
+                    <label ><b>Maths:</b></label>
+                    <input  id="mat" type="text" placeholder="score"  required><br>
+
+                    <label ><b>Social:</b></label>
+                    <input  id="soc" type="text" placeholder="score"  required><br>
+
+                    <label ><b>English:</b></label>
+                    <input  id="eng" type="text" placeholder="score"  required><br>
+
+                    <label ><b>Hindi:</b></label>
+                    <input  id="hin" type="text" placeholder="score"  required><br>
+
+
+                  
+                   <span><button  onclick="formObject();hide_show()" type="button" class="signupbtn">submit</button></span> 
+                   <span><button onclick="Clear()" class="signupbtn">Cl</button></span> 
+                
+
+            </div>
+   </div>
+   
+</body>
+</html>    
