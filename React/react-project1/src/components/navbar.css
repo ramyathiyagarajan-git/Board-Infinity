@@ -1,0 +1,32 @@
+.navbar{
+  margin: 0;
+  background: #ecf0f3;
+  height:80px;
+  width:100%;
+  font-family: cursive;
+  font-weight: 200px
+  ;
+}
+.navbar-logo{
+  justify-items: center;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #630606;
+}
+
+.content {
+  display: inline-block;
+  margin-left: 1260px;
+}
+
+a{
+  text-decoration: none;
+  padding-inline:30px ;
+  font-size: 20px;
+  color: black;
+  
+}
+.fa-typo3 {
+color: gold;
+}
