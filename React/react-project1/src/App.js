@@ -5,12 +5,13 @@ import Grid1 from './components/grid1';
 import Navbar from './components/navbar';
 
 
+
 function App() {
   return (
     <>
-    
+   
         <div className="top">
-        <Navbar ></Navbar>
+        <Navbar></Navbar>
         </div>
         <div className="section">
                 <div className="show1">

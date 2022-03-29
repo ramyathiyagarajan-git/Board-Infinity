@@ -1,0 +1,88 @@
+input[type=text], input[type=password],input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+button {
+    
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button:hover {
+    opacity:1;
+}
+
+.signupbtn {
+    margin-left: 30%; 
+    padding: 14px 20px;
+
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.container {
+    
+    width: 400px;
+    height: 700px;
+    border: 1px solid white;
+    padding: 60px;
+    padding-left: 20px;
+    border-radius:15px;
+    
+  
+}
+.header{
+    text-align: center ;
+    margin-top: 0;
+}
+
+table {
+
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead th:nth-child(1) {
+   width: 50%;
+}
+
+thead th:nth-child(2) {
+   width: 50%;
+}
+
+thead th:nth-child(4) {
+   width: 50%;
+}
+
+thead th:nth-child(3) {
+   width: 50%;
+}
+
+thead th:nth-child(5) {
+   width: 50%;
+}
+
+th, td {
+ padding: 20px; 
+ border:2px solid white ;
+ color: azure;
+}
