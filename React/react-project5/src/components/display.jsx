@@ -36,13 +36,16 @@ const Display = () => {
             <thead>
                 <tr>
                     <th>
-                        Email
+                        Name
                     </th>
                     <th>
-                        First Name
+                        date
                     </th>
                     <th>
-                        Last Name
+                        month
+                    </th>
+                    <th>
+                        year
                     </th>
                     <th>
                         Id
@@ -54,9 +57,9 @@ const Display = () => {
             </thead>
             <tbody>
                 {users.map(user => <tr>
-                    <td>{user.email}</td>
-                    <td>{user.first_name}</td>
-                    <td>{user.last_name}</td>
+                    <td>{user.name}</td>
+                    <td>{user.date}</td>
+                    <td>{user.month}</td>
                     <td>{user.id}</td>
                     <td><button onClick={ () => renderData(user.id) }>SHOW DATA</button></td>
                 </tr>)}

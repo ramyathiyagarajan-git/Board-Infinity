@@ -29,11 +29,11 @@ const changeToParent = () => {
 
                     
 
-                    <label ><b>Data1:</b></label>
-                    <input type={"number"} onChange={(ev) => handleFormChange(ev, 'data1')} /> <br/>
+                      <label ><b>Data1:</b></label>
+                      <input type={"number"} onChange={(ev) => handleFormChange(ev, 'data1')} /> <br/>
 
-                    <label ><b>Data2:</b></label>
-                    <input type={"number"} onChange={(ev) => handleFormChange(ev, 'data2')} /> <br/>  
+                      <label ><b>Data2:</b></label>
+                      <input type={"number"} onChange={(ev) => handleFormChange(ev, 'data2')} /> <br/>  
     
                     <label ><b>Data3:</b></label>
                     <input  type={"number"} onChange={(ev) => handleFormChange(ev, 'data3')} /><br/><br/>
